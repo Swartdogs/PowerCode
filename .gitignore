@@ -1,9 +1,6 @@
-<<<<<<< HEAD
-=======
 # Created by https://www.gitignore.io/api/c++,java,linux,macos,gradle,windows,visualstudiocode
 
 ### C++ ###
->>>>>>> Initial Commit
 # Prerequisites
 *.d
 
@@ -36,8 +33,6 @@
 *.exe
 *.out
 *.app
-<<<<<<< HEAD
-=======
 
 ### Java ###
 # Compiled class file
@@ -114,6 +109,15 @@ Temporary Items
 !.vscode/launch.json
 !.vscode/extensions.json
 
+### WPILib ###
+.wpilib/*
+
+### Gradle ###
+build.gradle
+gradlew
+gradlew.bat
+settings.gradle
+
 ### Windows ###
 # Windows thumbnail cache files
 Thumbs.db
@@ -163,4 +167,3 @@ bin/
 
 
 # End of https://www.gitignore.io/api/c++,java,linux,macos,gradle,windows,visualstudiocode
->>>>>>> Initial Commit
