@@ -40,7 +40,7 @@ private:
 	JoystickButton* m_buttonLiftBumpUp;
 	JoystickButton* m_buttonLiftBumpDown;
 
-	JoystickButton* m_buttonShiftLowTrig;
+	// JoystickButton* m_buttonShiftLowTrig;
 
 
 	double ApplyDeadband(double joyValue, double deadband);

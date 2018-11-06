@@ -43,7 +43,7 @@ OI::OI() {
 	m_buttonIntakeEject 	= new JoystickButton(m_buttonBox, 10);
 	m_buttonIntakeLaunch	= new JoystickButton(m_buttonBox, 11);
 
-	m_buttonShiftLowTrig	= new JoystickButton(m_joystickDrive, 1);
+	// m_buttonShiftLowTrig	= new JoystickButton(m_joystickDrive, 1);
 
 	m_buttonHookState->WhenPressed(new CmdHookState(true));
 	m_buttonHookState->WhenReleased(new CmdHookState(false));
@@ -76,8 +76,8 @@ OI::OI() {
 	m_buttonLiftBumpUp->    WhenPressed(new CmdLiftBump(true));
 	m_buttonLiftBumpDown->  WhenPressed(new CmdLiftBump(false));
 
-	m_buttonShiftLowTrig->  WhenPressed(new CmdDriveShift(Drive::shifterLow));
-	m_buttonShiftLowTrig->  WhenReleased(new CmdDriveShift(Drive::shifterHigh));
+	// m_buttonShiftLowTrig->  WhenPressed(new CmdDriveShift(Drive::shifterLow));
+	// m_buttonShiftLowTrig->  WhenReleased(new CmdDriveShift(Drive::shifterHigh));
 }
 
 double OI::ApplyDeadband(double joyValue, double deadband) {
