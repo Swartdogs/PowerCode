@@ -10,8 +10,8 @@
 #include <Commands/Subsystem.h>
 #include <WPILib.h>
 #include "ctre/Phoenix.h"
-#include "Dashboard.h"
-#include "Robot.h"
+#include "../Dashboard.h"
+#include "../Robot.h"
 
 class Climber : public frc::Subsystem {
 public:

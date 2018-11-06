@@ -6,7 +6,7 @@
 /*----------------------------------------------------------------------------*/
 
 #include "CmdLiftWait.h"
-#include "Robot.h"
+#include "../Robot.h"
 
 CmdLiftWait::CmdLiftWait(double timeout, bool resetCancel) {
 	m_timeout = timeout;

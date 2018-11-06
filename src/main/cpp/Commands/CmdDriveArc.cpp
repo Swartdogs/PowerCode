@@ -1,5 +1,5 @@
 #include "CmdDriveArc.h"
-#include "Robot.h"
+#include "../Robot.h"
 
 CmdDriveArc::CmdDriveArc(double  distance, double finalHeading, double maxSpeed, bool resetGyro,
 						 double timeout, bool resetCancel) {

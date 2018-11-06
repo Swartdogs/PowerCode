@@ -5,7 +5,7 @@
 /* the project.                                                               */
 /*----------------------------------------------------------------------------*/
 
-#include <Commands/CmdAutoArmTilt.h>
+#include "CmdAutoArmTilt.h"
 
 CmdAutoArmTilt::CmdAutoArmTilt(double tiltAngle) {
 	m_tiltAngle = tiltAngle;

@@ -6,7 +6,7 @@
 /*----------------------------------------------------------------------------*/
 
 #include "CmdCubeIntakeWait.h"
-#include "Robot.h"
+#include "../Robot.h"
 
 CmdCubeIntakeWait::CmdCubeIntakeWait(double timeout, bool resetCancel, bool backup) {
 	m_timeout = timeout;

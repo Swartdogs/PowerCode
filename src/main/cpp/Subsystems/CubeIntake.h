@@ -3,7 +3,7 @@
 
 #include <Commands/Subsystem.h>
 #include "WPILib.h"
-#include "PIDControl.h"
+#include "../PIDControl.h"
 
 class CubeIntake : public Subsystem {
 public:

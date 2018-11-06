@@ -1,5 +1,5 @@
 #include "CmdDrivePID.h"
-#include "Robot.h"
+#include "../Robot.h"
 
 CmdDrivePID::CmdDrivePID(double distance, double heading, double maxSpeed, Drive::UseEncoder useEncoder,
 						 bool resetEncoder, bool resetGyro, double timeout, bool resetCancel, double maxRotate) {

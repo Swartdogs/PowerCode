@@ -1,7 +1,7 @@
 #include "Drive.h"
 #include "../RobotMap.h"
-#include "Commands/CmdDriveJoystick.h"
-#include "Robot.h"
+#include "../Commands/CmdDriveJoystick.h"
+#include "../Robot.h"
 
 Drive::Drive() : Subsystem("Drive") {
 														//Initialize objects and variables

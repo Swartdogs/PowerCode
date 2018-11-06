@@ -1,4 +1,4 @@
-#include <Commands/CmdCubeIntakeMode.h>
+#include "CmdCubeIntakeMode.h"
 
 CmdCubeIntakeMode::CmdCubeIntakeMode(CubeIntake::IntakeMode mode, bool waitForFinish, bool resetCancel,
 									 double launchSpeed) {

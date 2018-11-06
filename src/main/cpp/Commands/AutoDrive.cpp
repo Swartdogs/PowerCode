@@ -1,5 +1,5 @@
 #include "AutoCommands.h"
-#include "Commands/CmdDrivePID.h"
+#include "CmdDrivePID.h"
 
 AutoDrive::AutoDrive(double wait) {
 	// TESTED

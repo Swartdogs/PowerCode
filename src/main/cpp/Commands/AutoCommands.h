@@ -3,19 +3,19 @@
 #define SRC_COMMANDS_AUTOCOMMANDS_H_
 
 #include <Commands/CommandGroup.h>
-#include "Dashboard.h"
-#include "Commands/CmdAutoArmTilt.h"
-#include "Commands/CmdCubeIntakeMode.h"
-#include "Commands/CmdCubeIntakePosition.h"
-#include "Commands/CmdCubeIntakeWait.h"
-#include "Commands/CmdDriveArc.h"
-#include "Commands/CmdDrivePID.h"
-#include "Commands/CmdDriveShift.h"
-#include "Commands/CmdDriveTurn.h"
-#include "Commands/CmdLiftBump.h"
-#include "Commands/CmdLiftPosition.h"
-#include "Commands/CmdLiftWait.h"
-#include "Commands/CmdRotatePID.h"
+#include "../Dashboard.h"
+#include "CmdAutoArmTilt.h"
+#include "CmdCubeIntakeMode.h"
+#include "CmdCubeIntakePosition.h"
+#include "CmdCubeIntakeWait.h"
+#include "CmdDriveArc.h"
+#include "CmdDrivePID.h"
+#include "CmdDriveShift.h"
+#include "CmdDriveTurn.h"
+#include "CmdLiftBump.h"
+#include "CmdLiftPosition.h"
+#include "CmdLiftWait.h"
+#include "CmdRotatePID.h"
 
 class AutoDrive : public CommandGroup {
 public:

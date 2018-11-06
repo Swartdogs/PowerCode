@@ -1,5 +1,5 @@
 #include "CmdLiftBump.h"
-#include "Robot.h"
+#include "../Robot.h"
 
 CmdLiftBump::CmdLiftBump(bool isBumpUp, bool resetCancel) {
 	m_isBumpUp = isBumpUp;

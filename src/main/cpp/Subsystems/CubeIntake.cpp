@@ -1,7 +1,7 @@
 #include "CubeIntake.h"
 #include "../RobotMap.h"
-#include "Robot.h"
-#include "Dashboard.h"
+#include "../Robot.h"
+#include "../Dashboard.h"
 #include "../CommandBase.h"
 
 CubeIntake::CubeIntake() : Subsystem("CubeIntake") {

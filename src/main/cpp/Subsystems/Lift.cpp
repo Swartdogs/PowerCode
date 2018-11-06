@@ -1,8 +1,8 @@
 #include "Lift.h"
 #include "../RobotMap.h"
-#include "CommandBase.h"
-#include "Robot.h"
-#include "Dashboard.h"
+#include "../CommandBase.h"
+#include "../Robot.h"
+#include "../Dashboard.h"
 
 Lift::Lift() : Subsystem("Lift") {																// Create objects
 	m_liftMotorBot	= new VictorSP(pwmLiftBottom);
