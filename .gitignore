@@ -167,3 +167,7 @@ bin/
 
 
 # End of https://www.gitignore.io/api/c++,java,linux,macos,gradle,windows,visualstudiocode
+gradle/wrapper/gradle-wrapper.properties
+.vscode/launch.json
+.vscode/settings.json
+gradle/wrapper/gradle-wrapper.jar
