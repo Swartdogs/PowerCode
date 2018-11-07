@@ -27,6 +27,11 @@ public:
 	AutoDrive(double wait);
 };
 
+class Auto1Test : public frc::CommandGroup {
+ public:
+  Auto1Test();
+};
+
 class Auto1DriveForward : public CommandGroup {
 public:
 	Auto1DriveForward(double wait);
