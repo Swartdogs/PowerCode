@@ -17,6 +17,11 @@
 #include "CmdLiftWait.h"
 #include "CmdRotatePID.h"
 
+class AutoFun : public frc::CommandGroup {
+ public:
+  AutoFun();
+};
+
 class AutoDrive : public CommandGroup {
 public:
 	AutoDrive(double wait);
