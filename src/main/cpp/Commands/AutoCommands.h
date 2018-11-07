@@ -132,4 +132,9 @@ public:
 	Auto3SwitchRight(double wait);
 };
 
+class AutoRoxanna : public frc::CommandGroup {
+ public:
+  AutoRoxanna();
+};
+
 #endif /* SRC_COMMANDS_AUTOCOMMANDS_H_ */
